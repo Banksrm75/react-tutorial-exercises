@@ -5,12 +5,12 @@ import ReactDOM from "react-dom"; // We use ReactDOM to render into the DOM
 // WHAT: This variable contains the html to render
 let output = (
 	<span>
-		{name} is <strong> { age } </strong> years old
+		James is <strong>12</strong> years old
 	</span>
 );
 
 // WHERE: A DOM element that will contain the entire react generated html
 const myDiv = document.querySelector("#myDiv");
 
-//what  //where
+               //WHAT: //WHERE:
 ReactDOM.render(output, myDiv);

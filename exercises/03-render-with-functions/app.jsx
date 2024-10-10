@@ -7,5 +7,6 @@ export const PrintHello = () => {
 	return <h1>I Love React</h1>;
 };
 
+
 //              what           where
-ReactDOM.render(PrintHello(), document.querySelector("#myDiv"));
+ReactDOM.render(<PrintHello/>, document.querySelector("#myDiv"));
